@@ -47,7 +47,6 @@ const Categories = () => {
       cateName: "Books",
     },
   ]
-
   return (
     <>
       <div className='category'>

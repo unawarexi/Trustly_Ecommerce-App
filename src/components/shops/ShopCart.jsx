@@ -1,7 +1,9 @@
-//import React, { useState } from "react"
+// import { useState } from "react"
 
-//const ShopCart = ({ addToCart, shopItems }) => {
+// export const ShopCart = ({ addToCart, shopItems }) => {
+
 //  const [count, setCount] = useState(0)
+
 //  const increment = () => {
 //    setCount(count + 1)
 //  }
@@ -40,9 +42,9 @@
 //      })}
 //    </>
 //  )
-//}
+// }
 
-//export default ShopCart
+
 
 import React, { useState } from "react"
 
@@ -57,11 +59,11 @@ const ShopCart = ({ shopItems, addToCart }) => {
       {shopItems.map((shopItems, index) => {
         return (
           <div className='box'>
-            <div className='product mtop'>
+            <div className='product-deals mtop'>
               <div className='img'>
                 <span className='discount'>{shopItems.discount}% Off</span>
                 <img src={shopItems.cover} alt='' />
-                <div className='product-like'>
+                <div className='product-like-deals'>
                   <label>{count}</label> <br />
                   <i className='fa-regular fa-heart' onClick={increment}></i>
                 </div>
@@ -75,7 +77,7 @@ const ShopCart = ({ shopItems, addToCart }) => {
                   <i className='fa fa-star'></i>
                   <i className='fa fa-star'></i>
                 </div>
-                <div className='price'>
+                <div className='price-deals'>
                   <h4>${shopItems.price}.00 </h4>
                   {/* step : 3  
                      if hami le button ma click garryo bahne 
@@ -93,4 +95,4 @@ const ShopCart = ({ shopItems, addToCart }) => {
   )
 }
 
-export default ShopCart
+export default ShopCart;

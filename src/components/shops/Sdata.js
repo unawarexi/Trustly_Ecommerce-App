@@ -49,6 +49,7 @@ const Sdata = {
       price: "60",
       discount: "5 ",
     },
+   
     {
       id: 14,
       cover: "./images/shops/shops-9.png",
@@ -62,6 +63,13 @@ const Sdata = {
       name: "Silver Cap",
       price: "5",
       discount: "2",
+    },
+    {
+      id: 16,
+      cover: "./images/shops/shops-1.png",
+      name: "Mapple Earphones",
+      price: "180",
+      discount: "25",
     },
   ],
 }
