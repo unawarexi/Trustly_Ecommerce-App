@@ -30,7 +30,7 @@ const Wrapper = () => {
         <div className='container grid2'>
           {data.map((val, index) => {
             return (
-              <div className='product' key={index}>
+              <div className='product product-wrapper' key={index}>
                 <div className='img icon-circle'>
                   <i>{val.cover}</i>
                 </div>
